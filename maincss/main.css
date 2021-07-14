@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* layout */
+#container{position: relative; width: 100%;}
+
+/* article.video */
+article.video_ct{width: 100%;height: 690px; margin: 0 auto;background-color: #242424;}
+article.video_ct .video_ct_inner{}
+article.video_ct .video_ct_inner video{width: 100%;height: 690px; margin: 0 auto;}
+
+/*  article.life news */
+article.life_ct{position: relative; width: 100%;height: 600px; margin: 0 auto;}
+article.life_ct .life_ct_tit{width: 100%;font-size: 40px;font-weight: 700; text-align: center;margin: 0 auto;margin: 100px 0;}
+article.life_ct .life_ct_inner{width: 100%; padding: 0 170px;}
+figure.snip1384 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 0;
+  margin-right: 15px;
+  max-width: 380px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+  box-shadow: 3px 5px 5px #9c9c9c;
+}
+figure.snip1384 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1384 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+figure.snip1384:after,
+figure.snip1384 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.snip1384:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+figure.snip1384 figcaption {
+  z-index: 1;
+  padding: 40px;
+}
+figure.snip1384 h3,
+figure.snip1384 .links {
+  width: 100%;
+  margin: 5px 0;
+  padding: 0;
+}
+figure.snip1384 h3 {
+  line-height: 1.3em;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  opacity: 0;
+}
+figure.snip1384 p {
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+figure.snip1384 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+figure.snip1384:hover img,
+figure.snip1384.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.snip1384:hover:after,
+figure.snip1384.hover:after {
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+figure.snip1384:hover h3,
+figure.snip1384.hover h3,
+figure.snip1384:hover p,
+figure.snip1384.hover p,
+figure.snip1384:hover i,
+figure.snip1384.hover i {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+/* article.event */
+article.event_ct{width: 100%;margin-bottom: 100px;}
+article.event_ct .event_ct_tit{width: 100%;font-size: 40px;font-weight: 700; text-align: center;margin: 0 auto;margin: 80px 0;}
+article.event_ct ul{width: 1000px;margin: 0 auto;}
+article.event_ct ul li{display: block;}
+article.event_ct ul li img{display: block;width: 100%;}
+
+/* article logo slide */
+.slide_gallery_box{position: relative; width: 100%;height: 188px; margin:0 auto;}
+.slide_gallery_box>.slide_gallery{overflow: hidden;width: 100%;height: 188px;margin:0 auto;}
+.slide_gallery_box>.slide_gallery>.gallery{position: relative;left: 0; width: 3600px;}
+.slide_gallery_box>.slide_gallery>.gallery>ul{overflow: hidden;float: left;}
+.slide_gallery_box>.slide_gallery>.gallery>ul>li{float: left;margin-right: 10px;}
+.slide_gallery_box>.slide_gallery>.gallery>ul>li img{width: 100%;}
+
+/* drink slider  */
+.swiper-container {
+  width: 100%;
+  height: 800px;
+}
+.swiper-slide {
+  text-align: center;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 800px;
+  /* object-fit: cover; */
+}
+
+/* article.company */
+article.company_ct{width: 70%;margin: 0 auto;margin-bottom: 100px;}
+article.company_ct .company_tit{width: 100%;font-size: 40px;font-weight: 700; text-align: center;margin: 0 auto;margin: 80px 0;}
+article.company_ct img{display: block; width: 100%;}

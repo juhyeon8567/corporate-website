@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#container{width: 100%;margin: 0 auto;background-color: rgb(36, 36, 36);}
+
+/* article.news_ct */
+article.news_ct{width: 90%;margin: 0 auto;}
+article.news_ct img{width: 100%;}

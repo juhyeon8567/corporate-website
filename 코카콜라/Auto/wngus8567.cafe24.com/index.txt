@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Coca-Cola</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- common.css 연결 -->
+    <link rel="stylesheet" href="common/css/common.css">
+    <!-- main.css 연결 -->
+    <link rel="stylesheet" href="maincss/main.css">
+    <!-- Swiper.CSS 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+
+    <!-- js 연결 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="common/js/jquery-1.8.3.min.js"></script>
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="common/js/common.js"></script>
+    <script src="mainjs/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- popup js 2개 + html 1개 -->
+    <script src="mainjs/mainpopup.js"></script>
+    
+    
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_inner">
+                    <h1 id="logo"><a href="index.html"><img src="common/imgs/header_logo.png" alt="메인로고이미지"></a></h1>
+                    <nav id="gnb">
+                        <ul class="main_menu">
+                            <li><a href="sub1/sub1.html" class="depth m1">New Product</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">신제품</a></li>
+                                    <li><a href="#">스파클링</a></li>
+                                    <li><a href="#">주스</a></li>
+                                    <li><a href="#">커피&워터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub2/sub2.html" class="depth m2">Brand Story</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">코카콜라 이야기</a></li>
+                                    <li><a href="#">제조과정</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sub3/sub3.html" class="depth m3">News & Event</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">브랜드소식&이벤트</a></li>
+                                    <li><a href="#">고객의 소리</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth m4">Company</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">대표인사말</a></li>
+                                    <li><a href="#">경영</a></li>
+                                    <li><a href="#">사회활동</a></li>
+                                    <li><a href="#">인재채용</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header_icon">
+                        <span class="insta_icon"><a href="#">instagram</a></span>
+                        <span class="facebook_icon"><a href="#">facebook</a></span>
+                    </div>
+            </div>
+            <div class="menu_box"></div>
+        </header>
+        
+        <section id="container">
+            <h2 class="hidden">컨텐츠</h2>
+<!-- main visual - video -->
+            <article class="video_ct">
+                <div class="video_ct_inner">
+                    <video src="video/cokecf.mp4" muted autoplay loop></video>
+                </div>
+            </article>
+<!-- sec01 - life news swiper -->
+            <article class="life_ct">
+                <h3 class="life_ct_tit">LIFE NEWS</h3>
+                <div class="life_ct_inner">
+                    <figure class="snip1384">
+                        <img src="images/life_img1.png" alt="기묘한이야기이미지1">
+                        <figcaption>
+                          <h3>Stranger Thing SEASON</h3>
+                          <p>누가 잠자는 뉴-코크를 잠깨웠나</p>
+                        </figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1384 hover">
+                          <img src="images/life_img2.png" alt="패스트푸드이미지">
+                        <figcaption>
+                          <h3>Soulfood with coke</h3>
+                          <p>코카-콜라 트친들이 추천하는 궁합 BEST 음식</p>
+                        </figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1384">
+                          <img src="images/life_img3.png" alt="바다이미지" />
+                        <figcaption>
+                          <h3>recycle plastic</h3>
+                          <p>해양 플라스틱 쓰레기를 재활용한 페트병</p>
+                        </figcaption>
+                        <a href="#"></a>
+                      </figure>
+                </div>
+            </article>
+<!-- sec02 event -->
+            <article class="event_ct">
+                <h3 class="event_ct_tit">EVENT</h3>
+                <ul>
+                    <li><img src="images/event.png" alt="이벤트배너이미지"></li>
+                </ul>
+            </article>
+<!-- slide coca-cola logo -->
+<article class="slide_gallery_box">
+    <div class="slide_gallery">
+        <div class="gallery">
+            <ul>
+                <li><img src="images/logo_red1.png" alt="코카콜라로고레드"></li>
+                <li><img src="images/logo_black2.png" alt="코카콜라로고블랙"></li>
+                <li><img src="images/logo_red1.png" alt="코카콜라로고레드"></li>
+                <li><img src="images/logo_black2.png" alt="코카콜라로고블랙"></li>
+                <li><img src="images/logo_red1.png" alt="코카콜라로고레드"></li>
+                <li><img src="images/logo_black2.png" alt="코카콜라로고블랙"></li>
+                <li><img src="images/logo_red1.png" alt="코카콜라로고레드"></li>
+                <li><img src="images/logo_black2.png" alt="코카콜라로고블랙"></li>
+            </ul>                
+        </div>
+    </div>
+</article>
+
+<!-- sec03 swiper drink banner  -->
+<div class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/zerocoke1.png" alt="제로콜라이미지"></div>
+      <div class="swiper-slide"><img src="images/zerosprite2.png" alt="제로스프라이트이미지"></div>
+      <div class="swiper-slide"><img src="images/z-monster3.png" alt="몬스터에너지이미지"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-- sec04 company -->
+        <article class="company_ct">
+            <h3 class="company_tit">COMPANY</h3>
+            <img src="images/company.png" alt="기업소개이미지">
+        </article>
+
+</section>
+
+<!-- footer 영역 -->
+        <footer id="footer">
+            <div class="footer_inner">
+                <div class="footer_left">
+                    <div class="footer_logo">
+                        <span class="footer_logo_icon"><img src="common/imgs/footer_logo.png" alt="푸터로고이미지"></span>
+                    </div>
+                    <p>Republic Of Korea</p>
+                </div>    
+                <div class="footer_center">
+                    <ul>
+                        <li><a href="#">정도경영</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">이메일주소 무단수집거부</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                        <address>
+                            코카-콜라음료(주) 대표이사 : 이정애 주소 ㅣ 경상남도 양산시 충렬로 269 (유산동)
+                        </address>
+                        <p>
+                            사업자등록번호 : 102-81-411121고객상담실 : 080-024-5999 <br>
+                            COPYRIGHT ⓒ COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                    <div class="footer_right">
+                        <div class="select">
+                            <a href="#" class="arrow">Related Site</a>
+                            <ul class="related_site">
+                                <li><a href="#">코크파트너 시스템</a></li>
+                                <li><a href="#">코카콜라 미국본사</a></li>
+                                <li><a href="#">LG생활건강</a></li>
+                                <li><a href="#">CPS열린구매</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+    </div>
+    
+   
+
+    <!-- life news script -->
+    <script>
+    $(".hover").mouseleave(
+            function () {
+        $(this).removeClass("hover");
+        }
+    );
+    </script>
+
+    <!-- company script -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});
+    </script>
+
+    <!-- 팝업창 -->
+    <div id="showimage" style="position: absolute; top:200px; right: 100px;width: 322px;height: 322px; z-index:110;">
+        <div class="popup_img"><img src="popup/modal_coke.png" alt="상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었다는 의미가 담긴 이미지"></div>
+        <form action="" style="font-size: 12px;text-align: center;color: #666; ">
+            <input type="checkbox" id="Notice" name="Notice" title="오늘은 이창을 열지 않음 선택상자">
+            <label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a href="#" onclick="closewin();hidebox();return false;">[close]</a>
+        </form>
+        <script>
+
+            function closewin(){
+                let chk = document.getElementById("Notice")
+                if(chk.checked){
+                    setCookie("Notice","done",1); //날짜부분 ex) 1=하루 , 2=이틀
+                }
+            }
+            if(getCookie("Notice")=="done"){
+                hidebox();
+            }
+        </script>
+    </div>
+
+    
+</body>
+</html>
